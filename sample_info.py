@@ -1,9 +1,9 @@
 # Bot information
 SESSION = 'Media_search'
 USER_SESSION = 'User_Bot'
-API_ID = 12345
-API_HASH = '0123456789abcdef0123456789abcdef'
-BOT_TOKEN = '123456:ABC-DEF1234ghIkl-zyx57W2v1u123ew11'
+API_ID = '790652080'
+API_HASH = '7848afd81456f36157c81f302927a3f9'
+BOT_TOKEN = '6455981163:AAHdmEZApyDwvaq_CjtWWY4mZZRJYps_tLA'
 USERBOT_STRING_SESSION = ''
 
 # Bot settings
@@ -11,14 +11,14 @@ CACHE_TIME = 300
 USE_CAPTION_FILTER = False
 
 # Admins, Channels & Users
-ADMINS = [12345789, 'admin123', 98765432]
-CHANNELS = [-10012345678, -100987654321, 'channelusername']
+ADMINS = [790652080, 'admin123', '790652080']
+CHANNELS = [-1001966980799, -1002006175024, 'GoogieMovie']
 AUTH_USERS = []
 AUTH_CHANNEL = None
 
 # MongoDB information
-DATABASE_URI = "mongodb://[username:password@]host1[:port1][,...hostN[:portN]][/[defaultauthdb]?retryWrites=true&w=majority"
+DATABASE_URI = "mongodb+srv://googie:rohan911226@cluster0.yvge3ch.mongodb.net/?retryWrites=true&w=majority"
 DATABASE_NAME = 'Telegram'
-COLLECTION_NAME = 'channel_files'  # If you are using the same database, then use different collection name for each bot
+COLLECTION_NAME = 'channel_files','-1002006175024'  # If you are using the same database, then use different collection name for each bot
 
 
